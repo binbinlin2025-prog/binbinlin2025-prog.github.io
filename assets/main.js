@@ -18,15 +18,43 @@ function setLang(next){
   $('langToggle').textContent = lang === 'en' ? '中文' : 'EN';
   render();
 }
-function itemMarkup(x){
-  if (typeof x === 'string') return `<li>${esc(x)}</li>`;
+function highlightMe(text=''){
+  return esc(text)
+    .replace(/Lin,\s*B\./g, '<strong>Lin, B.</strong>')
+    .replace(/Binbin Lin/g, '<strong>Binbin Lin</strong>');
+}
 
-  const citation = x.citation || '';
+function itemMarkup(x){
+  if (typeof x === 'string') return `<li>${highlightMe(x)}</li>`;
+
+  // New structured publication format
+  if (x.authors || x.title || x.journal) {
+    const authors = highlightMe(x.authors || '');
+    const title = x.title ? ` ${esc(x.title)}.` : '';
+    const journal = x.journal ? ` <em>${esc(x.journal)}</em>` : '';
+    const volume = x.volume ? `, ${esc(x.volume)}` : '';
+    const pages = x.pages ? `, ${esc(x.pages)}` : '';
+    const year = x.year ? ` ${esc(x.year)}.` : '';
+    const status =
+      x.status && x.status !== "Published"
+        ? ` <span class="pub-status">(${esc(x.status)})</span>`
+        : '';
+    const link = x.link
+      ? ` <a class="pub-link" href="${x.link}" target="_blank" rel="noopener">[Link]</a>`
+      : '';
+
+    return `<li>${authors}${year}${title}${journal}${volume}${pages}.${status}${link}</li>`;
+  }
+
+  // Old citation format, kept for compatibility
+  const citation = highlightMe(x.citation || '');
   const status =
-  x.status && x.status !== "Published"
-    ? ` <span class="pub-status">(${esc(x.status)})</span>`
+    x.status && x.status !== "Published"
+      ? ` <span class="pub-status">(${esc(x.status)})</span>`
+      : '';
+  const link = x.link
+    ? ` <a class="pub-link" href="${x.link}" target="_blank" rel="noopener">[Link]</a>`
     : '';
-  const link = x.link ? ` <a class="pub-link" href="${x.link}" target="_blank" rel="noopener">[Link]</a>` : '';
 
   return `<li>${citation}${status}${link}</li>`;
 }
