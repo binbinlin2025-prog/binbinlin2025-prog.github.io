@@ -6,10 +6,9 @@
       "name_sub": "林彬彬",
       "title": "Associate Professor\n(Tianyou Distinguished Track)",
       "affiliation": "Faculty of Geomatics\nLanzhou Jiaotong University",
-      "address": "Room 1502, Duxing-B Building",
       "email": "binbinlin.2025@gmail.com\nbinbinlin@lzjtu.edu.cn",
       "research_keywords": ["Geospatial Big Data","Social Sensing","Public Health","Spatiotemporal Analysis and Modeling","GeoAI"],
-      "bio": "Dr. Binbin Lin is an Associate Professor (Tianyou Distinguished Track) in the Faculty of Geomatics at Lanzhou Jiaotong University. She received her Ph.D. in Geography from Texas A&M University in 2025 under the supervision of Prof. Lei Zou. Her research lies at the intersection of GIScience, Geospatial Artificial Intelligence (GeoAI), social sensing, geospatial big data, public health, and spatiotemporal analytics, with a particular focus on understanding human-environment interactions and developing data-driven approaches to address challenges in public health, disasters, and sustainable cities."
+      "bio": "Dr. Binbin Lin is an Associate Professor (Tianyou Distinguished Track) in the Faculty of Geomatics at Lanzhou Jiaotong University. She received her Ph.D. in Geography from Texas A&M University in 2025 under the supervision of Prof. Lei Zou.\nHer research lies at the intersection of GIScience, Geospatial Artificial Intelligence (GeoAI), social sensing, geospatial big data, public health, and spatiotemporal analytics, with a particular focus on understanding human-environment interactions and developing data-driven approaches to address challenges in public health, disasters, and sustainable cities."
     },
     "zh": {
       "name": "林彬彬",
@@ -19,7 +18,7 @@
       "address": "兰州交通大学笃行楼B座1502",
       "email": "binbinlin.2025@gmail.com\nbinbinlin@lzjtu.edu.cn",
       "research_keywords": ["地理大数据","社会感知","公共健康","时空分析与建模","地理人工智能"],
-      "bio": "林彬彬，兰州交通大学测绘与地理信息学院天佑副教授，博士毕业于美国德州农工大学（Texas A&M University）地理学专业，师从邹雷教授。主要从事地理信息科学（GIScience）、地理人工智能（GeoAI）、社会感知、地理空间大数据、公共健康地理及时空分析与建模等方向研究，致力于融合多源地理空间数据、人工智能与空间分析方法，揭示人类行为、健康、灾害与城市系统之间的时空耦合关系，为公共健康治理、灾害韧性提升和可持续城市建设提供数据驱动的空间智能解决方案。"
+      "bio": "林彬彬，兰州交通大学测绘与地理信息学院天佑副教授，博士毕业于美国德州农工大学（Texas A&M University）地理学专业，师从邹雷教授。\n主要从事地理信息科学（GIScience）、地理人工智能（GeoAI）、社会感知、地理空间大数据、公共健康地理及时空分析与建模等方向研究，致力于融合多源地理空间数据、人工智能与空间分析方法，揭示人类行为、健康、灾害与城市系统之间的时空耦合关系，为公共健康治理、灾害韧性提升和可持续城市建设提供数据驱动的空间智能解决方案。"
     },
     "links": [
       {
@@ -27,7 +26,7 @@
         "url": "https://scholar.google.com/citations?user=Ytf9fXYAAAAJ&hl=en&oi=ao"
       },
       {
-        "label": "Official Profile Website",
+        "label": "Profile Website",
         "url": "https://cdxy.lzjtu.edu.cn/jszy/LBB/jsjj.htm"
       }
     ]
@@ -46,23 +45,23 @@
     },
     "education": {
   "en": {
-    "title": "Education and Professional Experience",
+    "title": "Appointments and Education",
     "groups": [
       {
-        "title": "Professional Experience",
+        "title": "Appointments",
         "items": [
-          "Jul. 2025–Present, Associate Professor (Tianyou Distinguished Track), Faculty of Geomatics, Lanzhou Jiaotong University",
-          "Jul. 2025–Present, Postdoctoral Research Fellow, Faculty of Geomatics, Lanzhou Jiaotong University (Supervisors: Haowen Yan and Liang Zhou)",
-          "Dec. 2020–May 2021, Research Assistant, Aerospace Information Research Institute, Chinese Academy of Sciences (Supervisors: Bing Zhang and Dailiang Peng)"
+          "Jul. 2025–Present    Associate Professor (Tianyou Distinguished Track), Faculty of Geomatics, Lanzhou Jiaotong University",
+          "Jul. 2025–Present    Postdoctoral Research Fellow, Faculty of Geomatics, Lanzhou Jiaotong University (Supervisors: Haowen Yan and Liang Zhou)",
+          "Dec 2020–May 2021    Research Assistant, Aerospace Information Research Institute, Chinese Academy of Sciences (Supervisors: Bing Zhang and Dailiang Peng)"
         ]
       },
       {
         "title": "Education",
         "items": [
-          "Ph.D. in Geography, Texas A&M University, USA (2021–2025) (Advisor: Lei Zou)",
-          "M.S. in 3S Integration and Meteorological Applications, Nanjing University of Information Science and Technology, China (2017–2020) (Advisor: Xinfa Qiu)",
-          "GIS Summer Program, Saint Louis University, USA (Jul.–Aug. 2015)",
-          "B.S. in Geographic Information Science, Nanjing University of Information Science and Technology, China (2013–2017)"
+          "2021–2025     Ph.D. in Geography, Texas A&M University, USA (Advisor: Lei Zou)",
+          "2017–2020     M.S. in 3S Integration and Meteorological Applications, Nanjing University of Information Science and Technology, China (Advisor: Xinfa Qiu)",
+          "Jul–Aug 2015  GIS Summer Program, Saint Louis University, USA",
+          "2013–2017     B.S. in Geographic Information Science, Nanjing University of Information Science and Technology, China"
         ]
       }
     ]
