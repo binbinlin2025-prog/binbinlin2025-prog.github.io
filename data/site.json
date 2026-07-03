@@ -417,14 +417,16 @@
       ]
     },
     "projects": {
-  "image": "img/module-projects.svg",
   "en": {
     "title": "Research Projects",
     "groups": [
       {
         "title": "Projects as PI",
         "items": [
-          "2026–Present. Tianyou Postdoctoral Science Foundation, Lanzhou Jiaotong University (General Program). \"Modeling Healthcare-Seeking Behaviors of Older Adults under Multimodal Transportation Constraints.\" Principal Investigator."
+          {
+            "text": "2026–Present. Tianyou Postdoctoral Science Foundation, Lanzhou Jiaotong University (General Program). \"Modeling Healthcare-Seeking Behaviors of Older Adults under Multimodal Transportation Constraints.\" Principal Investigator.",
+            "image": "img/project-aging-healthcare.svg"
+          }
         ]
       },
       {
@@ -445,7 +447,10 @@
       {
         "title": "主持项目",
         "items": [
-          "2026年至今，兰州交通大学天佑博士后科学基金（一般项目），《多模态交通出行约束下的老年人就医行为模拟》，项目负责人。"
+          {
+            "text": "2026年至今，兰州交通大学天佑博士后科学基金（一般项目），《多模态交通出行约束下的老年人就医行为模拟》，项目负责人。",
+            "image": "img/project-aging-healthcare.svg"
+          }
         ]
       },
       {
