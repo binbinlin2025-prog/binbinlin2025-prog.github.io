@@ -153,7 +153,10 @@
       },
       "groups": [
         {
-  "title": "Selected First-Author Publications",
+  "title": {
+    "en": "Selected First-Author Publications",
+    "zh": "第一作者论文"
+  },
   "items": [
     {
       "year": 2026,
@@ -218,7 +221,10 @@
   ]
 },
 {
-  "title": "Selected Collaborative Publications",
+  "title": {
+    "en":"Selected Collaborative Publications",
+    "zh":"合作论文"
+    },
   "items": [
     {
       "year": 2026,
@@ -313,7 +319,10 @@
   ]
 },
         {
-  "title": "Conference Papers",
+  "title": {
+    "en":"Conference Papers",
+    "zh":"会议论文"
+  },
   "items": [
     {
       "year": 2023,
@@ -378,7 +387,10 @@
   ]
 },
         {
-  "title": "Book Chapters",
+  "title": {
+    "en":"Book Chapters",
+    "zh":"书籍章节"
+  },
   "items": [
     {
       "year": 2026,
