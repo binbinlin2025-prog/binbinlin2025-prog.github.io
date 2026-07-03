@@ -27,24 +27,27 @@ function highlightMe(text=''){
 function itemMarkup(x){
   if (typeof x === 'string') return `<li>${highlightMe(x)}</li>`;
 
-  // New structured publication format
-  if (x.authors || x.title || x.journal) {
-    const authors = highlightMe(x.authors || '');
-    const title = x.title ? ` ${esc(x.title)}.` : '';
-    const venue = x.venue ? ` <em>${esc(x.venue)}</em>` : '';
-    const volume = x.volume ? `, ${esc(x.volume)}` : '';
-    const pages = x.pages ? `, ${esc(x.pages)}` : '';
-    const year = x.year ? ` ${esc(x.year)}.` : '';
-    const status =
-      x.status && x.status !== "Published"
-        ? ` <span class="pub-status">(${esc(x.status)})</span>`
-        : '';
-    const link = x.link
-      ? ` <a class="pub-link" href="${x.link}" target="_blank" rel="noopener">[Link]</a>`
+  const authors = highlightMe(x.authors || '');
+  const year = x.year ? ` ${esc(x.year)}.` : '';
+  const title = x.title ? ` ${esc(x.title)}.` : '';
+  const venueName = x.venue || x.journal || '';
+  const venue = venueName ? ` <em>${esc(venueName)}</em>` : '';
+  const volume = x.volume ? `, ${esc(x.volume)}` : '';
+  const pages = x.pages ? `, ${esc(x.pages)}` : '';
+
+  const status =
+    x.status && x.status !== "Published"
+      ? ` <span class="pub-status">(${esc(x.status)})</span>`
       : '';
 
-    return `<li>${authors}${year}${title}${venue}${volume}${pages}.${status}${link}</li>`;
-  }
+  const linkText = lang === "zh" ? "链接" : "Paper";
+
+  const link = x.link
+    ? ` <a class="pub-link" href="${x.link}" target="_blank" rel="noopener">${linkText}</a>`
+    : '';
+
+  return `<li>${authors}${year}${title}${venue}${volume}${pages}.${status}${link}</li>`;
+}
 
   // Old citation format, kept for compatibility
   const citation = highlightMe(x.citation || '');
