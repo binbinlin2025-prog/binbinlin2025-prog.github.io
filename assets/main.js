@@ -69,7 +69,7 @@ function itemMarkup(x) {
       ? ` <span class="pub-status">(${esc(x.status)})</span>`
       : '';
 
-  const linkText = lang === 'zh' ? '链接' : 'Paper';
+  const linkText = lang === 'zh' ? '【链接】' : '[Link]';
 
   const link = x.link
     ? ` <a class="pub-link" href="${x.link}" target="_blank" rel="noopener">${linkText}</a>`
@@ -85,14 +85,14 @@ function listMarkup(items = []) {
 function groupsMarkup(groups = []) {
   return `<div class="group-list">${
     groups.map(g => {
-      const title =
+      const groupTitle =
         typeof g.title === 'object'
-          ? (g.title[lang] || g.title.en)
-          : g.title;
+          ? (g.title[lang] || g.title.en || '')
+          : (g.title || '');
 
       return `
         <section class="subsection">
-          <h3>${esc(title)}</h3>
+          <h3>${esc(groupTitle)}</h3>
           ${listMarkup(g.items || [])}
         </section>
       `;
