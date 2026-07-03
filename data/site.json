@@ -599,23 +599,51 @@
       }
     },
     "talks": {
-      "en": {
-        "title": "Presentations and Conferences",
-        "items": [
-          "CPGIS Conference presentation on healthcare accessibility disruptions using mobile phone location data",
-          "AAG Annual Meeting presentations on GeoAI, social sensing, and human-pandemic dynamics",
-          "ICC and AGU presentations on social sensing, disaster response, and public health geography"
-        ]
-      },
-      "zh": {
-        "title": "学术报告与会议",
-        "items": [
-          "CPGIS 会议报告：基于手机位置数据的灾害期间医疗可达性扰动量化研究",
-          "AAG 年会报告：GeoAI、社会感知与人类—疫情动态研究",
-          "ICC 与 AGU 会议报告：社会感知、灾害响应与公共健康地理相关研究"
-        ]
-      }
-    },
+  "en": {
+    "title": "Presentations and Conferences",
+    "items": [
+      "Lin, B. 2026. Predicting Healthcare Visit Flows by Integrating Human Mobility Data: A Case Study of Houston, USA. Annual Conference on Geographical Modeling and Geographic Information Analysis, Geographical Society of China. Jinan, China.",
+      "Lin, B., and Zou, L.* 2026. Hybrid Sensing for Public Health: A BESH Framework to Understand and Mitigate Inequalities. Annual Meeting of the American Association of Geographers. San Francisco, USA.",
+      "Lin, B. 2025. Predicting Healthcare Visit Flows by Integrating Human Mobility Data: A Case Study of Houston, USA. Annual Conference on Behavioral Geography and Health Geography. Guangzhou, China.",
+      "Lin, B., and Li, P. 2025. International Invention Exhibition in Nuremberg. Nuremberg, Germany.",
+      "Lin, B., et al. 2025. Predicting Healthcare System Visitation Flow by Integrating Hospital Attributes and Population Socioeconomics with Human Mobility Data. Annual Meeting of the American Association of Geographers. Detroit, USA.",
+      "Lin, B., et al. 2024. Understanding Human-COVID-19 Dynamics Using Geospatial Big Data: A Systematic Literature Review. Annual Meeting of the American Association of Geographers. Honolulu, USA.",
+      "Lin, B., and Zou, L.* 2023. Sensing the Pulse of the Pandemic through Geospatial Big Data. International Cartographic Conference. ICA Scholarship; USNC Travel Funding. Cape Town, South Africa.",
+      "Lin, B., et al. 2023. Statistical Machine Learning Meets High-Dimensional Spatiotemporal Challenges: A Case Study of COVID-19 Modeling. ICC Preconference Symposium. ICA Scholarship; USNC Travel Funding. Cape Town, South Africa.",
+      "Lin, B., et al. 2023. Sensing the Pulse of the Pandemic: Demographic Disparities of Public Sentiment toward COVID-19 through Social Media. Annual Meeting of the American Association of Geographers. Second Place, GISS-SG Student Paper Competition. Colorado, USA.",
+      "Lin, B., et al. 2022. Sensing the Pulse of the Pandemic: Demographic Disparities of Public Sentiment toward COVID-19 through Social Media. TxGIS Day. First Place, Graduate Student Research Competition. Texas, USA.",
+      "Lin, B., et al. 2022. Sensing the Pulse of the Pandemic: Revealing Social-Behavioral Dynamics during COVID-19 Using Geospatial Big Data. Conference on Advances in Data Science. Texas, USA.",
+      "Lin, B., et al. 2022. Multi-Granular Geovisualizations of Public Perceptions of COVID-19 through the Lens of Twitter. AutoCarto Conference. California, USA.",
+      "Lin, B., et al. 2022. Evolving Effects of Non-Pharmaceutical Interventions on COVID-19 Health Impacts in the United States. The 29th International Conference on Geoinformatics. Online.",
+      "Lin, B., et al. 2022. Revealing the Global Linguistic and Geographic Disparities of Public Awareness to COVID-19 Outbreak through Social Media. Annual Meeting of the American Association of Geographers. SAM Student Travel Award. Online.",
+      "Lin, B., et al. 2021. Revealing the Long-Term Global Awareness of COVID-19 and Its Effects on Public Health through the Lens of Social Media. Annual Meeting of the American Association of Geographers. SAM Student Travel Award. Online.",
+      "Zou, L.*, Lin, B., et al. 2021. Revealing Social Awareness and Behavioral Changes during COVID-19 through Geospatial Big Data. Texas A&M Institute of Data Science Research Conference. Texas, USA.",
+      "Zou, L.*, Lin, B., et al. 2021. Revealing the Geographical Disparities of Global COVID-19 Awareness and Its Health Effects through Social Media. International Symposium on Geospatial Approaches to Combating COVID-19, 30th International Cartographic Conference. Best Paper Award. Online."
+    ]
+  },
+  "zh": {
+    "title": "学术报告与会议",
+    "items": [
+      "林彬彬. 2026. 融合人类流动数据的医疗访问流预测——以美国休斯顿为例. 中国地理学会地理模型与地理信息分析学术年会. 济南.",
+      "林彬彬、邹雷. 2026. 面向公共健康的混合感知：理解与缓解健康不平等的理论框架. 美国地理学会年会. 旧金山.",
+      "林彬彬. 2025. 融合人类流动数据的医疗访问流预测——以美国休斯顿为例. 中国行为地理与健康地理学术年会. 广州.",
+      "林彬彬、李蓬勃. 2025. 纽伦堡国际发明展. 纽伦堡.",
+      "林彬彬等. 2025. 融合医院属性、人口社会经济特征与人类流动数据的医疗系统访问流预测. 美国地理学会年会. 底特律.",
+      "林彬彬等. 2024. 基于地理空间大数据理解人类—新冠疫情动态：系统文献综述. 美国地理学会年会. 檀香山.",
+      "林彬彬、邹雷. 2023. 基于地理空间大数据感知疫情脉动. 国际制图大会. 国际制图学协会奖学金；美国国家委员会旅行资助. 开普敦.",
+      "林彬彬等. 2023. 统计机器学习应对高维时空挑战：以新冠疫情建模为例. 国际制图大会会前专题研讨会. 国际制图学协会奖学金；美国国家委员会旅行资助. 开普敦.",
+      "林彬彬等. 2023. 感知疫情脉动：基于社交媒体揭示公众情绪的人口差异. 美国地理学会年会. 地理信息科学与系统专业组学生论文竞赛二等奖. 科罗拉多.",
+      "林彬彬等. 2022. 感知疫情脉动：基于社交媒体揭示公众情绪的人口差异. 德州地理信息系统日. 研究生研究竞赛一等奖. 德克萨斯.",
+      "林彬彬等. 2022. 感知疫情脉动：基于地理空间大数据揭示新冠疫情期间社会行为动态. 数据科学进展会议. 德克萨斯.",
+      "林彬彬等. 2022. 从社交媒体视角多粒度可视化公众对新冠疫情的认知. 自动制图会议. 加利福尼亚.",
+      "林彬彬等. 2022. 美国非药物干预措施对新冠疫情健康影响的动态作用. 第二十九届国际地理信息科学大会. 线上.",
+      "林彬彬等. 2022. 基于社交媒体揭示全球公众对新冠疫情认知的语言与地理差异. 美国地理学会年会. 空间分析与建模专业组学生旅行奖. 线上.",
+      "林彬彬等. 2021. 从社交媒体视角揭示全球公众对新冠疫情的长期认知及其公共健康影响. 美国地理学会年会. 空间分析与建模专业组学生旅行奖. 线上.",
+      "邹雷、林彬彬等. 2021. 基于地理空间大数据揭示新冠疫情期间社会认知与行为变化. 德州农工大学数据科学研究会议. 德克萨斯.",
+      "邹雷、林彬彬等. 2021. 基于社交媒体揭示全球新冠疫情认知的地理差异及其健康影响. 地理空间方法应对新冠疫情国际研讨会暨第三十届国际制图大会. 最佳论文奖. 线上."
+    ]
+  }
+},
     "service": {
       "en": {
         "title": "Academic Service",
