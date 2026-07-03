@@ -146,26 +146,113 @@
     },
     "publications": {
       "en": {
-        "title": "Publications",
-        "note": "Publication information is kept in English for citation consistency."
+        "title": "Publications"
       },
       "zh": {
-        "title": "论文论著",
-        "note": "论文、会议论文和学术专著条目信息保留英文，便于引用、检索与国际交流。"
+        "title": "论文论著"
       },
       "groups": [
         {
-          "title": "Journal Articles",
-          "items": [
-            "Lin, B., Zou, L.*, Duffield N., Mostafavi A., Cai, H., Zhou, B., Tao, J., Yang, M., Mandal, D. and Abedin, J. 2022. Revealing the Linguistic and Geographical Disparities of Public Awareness to Covid-19 Outbreak through Social Media. International Journal of Digital Earth 15(1), 868–889.",
-            "Lin, B., Dai, Y., Zou, L.*, and Ning, N. 2024. Modeling the Impacts of Governmental and Human Responses on COVID-19 Spread Using Statistical Machine Learning. International Journal of Digital Earth 17(1), 2434651.",
-            "Lin, B., Zou, L.*, Zhao, B., Huang, X., Cai, H., Yang, M., and Zhou, B. 2024. Sensing the pulse of the pandemic: unveiling the geographical and demographic disparities of public sentiment toward COVID-19 through social media. Cartography and Geographic Information Science.",
-            "Lin, B., Zou, L.*, Yang, M., Zhou, B., Mandal, D., Abedin, J., Cai, H., and Ning, N. 2024. Progress in understanding human-COVID-19 dynamics using geospatial big data: a systematic review. Annals of GIS.",
-            "Zhou, B., Zou, L.*, Yang, M., Lin, B., Mandal, D., and Abedin, J. 2024. Overlooked voices under strict lockdown: mapping humanitarian needs in 2022 Shanghai COVID-19 outbreak. Cartography and Geographic Information Science.",
-            "Zhou, B., Zou, L.*, Mostafavi, A., Lin, B., Yang, M., Gharaibeh, N., Cai, H., Abedin, J., and Mandal, D. 2022. VictimFinder: Harvesting rescue requests in disaster response from social media with BERT. Computers, Environment and Urban Systems 95, 101824.",
-            "Yang, M., Zou, L.*, Cai, H., Qiang, Y., Lin, B., Zhou, B., Abedin, J., and Mandal, D. 2022. Spatial–Temporal Land Loss Modeling and Simulation in a Vulnerable Coast: A Case Study in Coastal Louisiana. Remote Sensing 14(4), 896."
-          ]
-        },
+  "title": "Journal Articles",
+  "items": [
+    {
+      "year": 2025,
+      "status": "Under Review",
+      "citation": "Lin, B., Zou, L.*, Tian, H., Cai, H., Yang, Y., Zhou, B. Predicting Healthcare System Visitation Flow by Integrating Hospital Attributes and Population Socioeconomics with Human Mobility Data. Applied Geography.",
+      "link": ""
+    },
+    {
+      "year": 2025,
+      "status": "Under Review",
+      "citation": "Lin, B., Cai, H., Tian, H., Fu, D., Das, P., Sumiya, N., Yin, Z., and Zou, L.* Quantifying Healthcare Accessibility Disruptions Using Mobile Phone Location Data During Disasters: A Case Study of Hurricane Beryl. International Journal of Disaster Risk Reduction.",
+      "link": ""
+    },
+    {
+      "year": 2025,
+      "status": "In Draft",
+      "citation": "Lin, B., Zou, L.*, Brosnan, J., Bowling, B., and Barnicle, S. Geospatial Inequalities in User Experience and Accessibility to Golf Courses: A Google Maps Review Analysis in Tennessee. Applied Geography.",
+      "link": ""
+    },
+    {
+      "year": 2025,
+      "status": "In Draft",
+      "citation": "Zou, L.*, and Lin, B. Sensing Social-Behavioral Dynamics during Pandemics through Geospatial Big Data. Annals of the American Association of Geographers.",
+      "link": ""
+    },
+    {
+      "year": 2024,
+      "status": "Published",
+      "citation": "Lin, B., Dai, Y., Zou, L.*, and Ning, N. Modeling the Impacts of Governmental and Human Responses on COVID-19 Spread Using Statistical Machine Learning. International Journal of Digital Earth, 17(1), 2434651.",
+      "link": "https://doi.org/10.1080/17538947.2024.2434651"
+    },
+    {
+      "year": 2024,
+      "status": "Published",
+      "citation": "Lin, B., Zou, L.*, Zhao, B., Huang, X., Cai, H., Yang, M., and Zhou, B. Sensing the Pulse of the Pandemic: Unveiling the Geographical and Demographic Disparities of Public Sentiment toward COVID-19 through Social Media. Cartography and Geographic Information Science.",
+      "link": "https://doi.org/10.1080/15230406.2024.2366474"
+    },
+    {
+      "year": 2024,
+      "status": "Published",
+      "citation": "Lin, B., Zou, L.*, Yang, M., Zhou, B., Mandal, D., Abedin, J., Cai, H., and Ning, N. Progress in Understanding Human-COVID-19 Dynamics Using Geospatial Big Data: A Systematic Review. Annals of GIS.",
+      "link": "https://doi.org/10.1080/19475683.2024.2380585"
+    },
+    {
+      "year": 2024,
+      "status": "Published",
+      "citation": "Zhou, B., Zou, L.*, Yang, M., Lin, B., Mandal, D., and Abedin, J. Overlooked Voices under Strict Lockdown: Mapping Humanitarian Needs in the 2022 Shanghai COVID-19 Outbreak. Cartography and Geographic Information Science.",
+      "link": "https://doi.org/10.1080/15230406.2024.2350535"
+    },
+    {
+      "year": 2024,
+      "status": "Published",
+      "citation": "Tian, H., Cai, H., Hu, L., Qiang, Y., Zhou, B., Yang, M., and Lin, B. Unveiling Community Adaptations to Extreme Heat Events Using Mobile Phone Location Data. Journal of Environmental Management.",
+      "link": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4723749"
+    },
+    {
+      "year": 2024,
+      "status": "Published",
+      "citation": "Abedin, J., Zou, L.*, Yang, M., Rohli, R., Mandal, D., Qiang, Y., Akter, H., Zhou, B., Lin, B., and Cai, H. Deciphering Spatial-Temporal Dynamics of Flood Exposure in the United States. Sustainable Cities and Society, 108, 105444.",
+      "link": "https://doi.org/10.1016/j.scs.2024.105444"
+    },
+    {
+      "year": 2023,
+      "status": "Published",
+      "citation": "Mandal, D., Zou, L.*, Abedin, J., Zhou, B., Yang, M., Lin, B., and Cai, H. Algorithmic Uncertainties in Geolocating Social Media Data for Disaster Management. Cartography and Geographic Information Science.",
+      "link": "https://doi.org/10.1080/15230406.2023.2242744"
+    },
+    {
+      "year": 2022,
+      "status": "Published",
+      "citation": "Lin, B., Zou, L.*, Duffield, N., Mostafavi, A., Cai, H., Zhou, B., Tao, J., Yang, M., Mandal, D., and Abedin, J. Revealing the Linguistic and Geographical Disparities of Public Awareness to COVID-19 Outbreak through Social Media. International Journal of Digital Earth, 15(1), 868–889.",
+      "link": "https://doi.org/10.1080/17538947.2022.2073974"
+    },
+    {
+      "year": 2022,
+      "status": "Published",
+      "citation": "Zhou, B., Zou, L.*, Mostafavi, A., Lin, B., Yang, M., Gharaibeh, N., Cai, H., Abedin, J., and Mandal, D. VictimFinder: Harvesting Rescue Requests in Disaster Response from Social Media with BERT. Computers, Environment and Urban Systems, 95, 101824.",
+      "link": "https://doi.org/10.1016/j.compenvurbsys.2022.101824"
+    },
+    {
+      "year": 2022,
+      "status": "Published",
+      "citation": "Yang, M., Zou, L.*, Cai, H., Qiang, Y., Lin, B., Zhou, B., Abedin, J., and Mandal, D. Spatial–Temporal Land Loss Modeling and Simulation in a Vulnerable Coast: A Case Study in Coastal Louisiana. Remote Sensing, 14(4), 896.",
+      "link": "https://doi.org/10.3390/rs14040896"
+    },
+    {
+      "year": 2022,
+      "status": "Published",
+      "citation": "Hu, J., Zhang, B., Peng, D.*, Yu, R., Liu, Y., Xiao, C., Li, C., Dong, T., Fang, M., Ye, H., Huang, W., Lin, B., Wang, M., Cheng, E., and Yang, S. Estimation of Wheat Tiller Density Using Remote Sensing Data and Machine Learning Methods. Frontiers in Plant Science, 13.",
+      "link": "https://doi.org/10.3389/fpls.2022.873304"
+    },
+    {
+      "year": 2021,
+      "status": "Published",
+      "citation": "Zheng, S., Zhang, B., Peng, D.*, Yu, L., Lin, B., Pan, Y., and Xie, Q. The Trend towards a Warmer and Wetter Climate Observed in Arid and Semi-Arid Areas of Northwest China from 1959 to 2019. Environmental Research Communications, 3(11), 115011.",
+      "link": "https://doi.org/10.1088/2515-7620/ac36db"
+    }
+  ]
+},
         {
           "title": "Conference Papers",
           "items": [
