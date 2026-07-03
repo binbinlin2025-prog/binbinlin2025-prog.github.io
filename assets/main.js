@@ -22,7 +22,10 @@ function itemMarkup(x){
   if (typeof x === 'string') return `<li>${esc(x)}</li>`;
 
   const citation = x.citation || '';
-  const status = x.status ? ` <span class="pub-status">(${esc(x.status)})</span>` : '';
+  const status =
+  x.status && x.status !== "Published"
+    ? ` <span class="pub-status">(${esc(x.status)})</span>`
+    : '';
   const link = x.link ? ` <a class="pub-link" href="${x.link}" target="_blank" rel="noopener">[Link]</a>` : '';
 
   return `<li>${citation}${status}${link}</li>`;
