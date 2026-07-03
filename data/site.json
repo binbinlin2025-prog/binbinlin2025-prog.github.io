@@ -505,27 +505,55 @@
   }
 },
     "awards": {
-      "en": {
-        "title": "Awards and Honors",
-        "items": [
-          "2025 Excellence in Doctoral Dissertation Award, Texas A&M University",
-          "2024 CaGIS Scholarship Award, Cartography and Geographic Information Society",
-          "2023 ICA Scholarship, International Cartographic Association",
-          "AAG GISS-SG Student Honors Paper Competition",
-          "TxGIS Day Graduate Student Research Competition"
-        ]
-      },
-      "zh": {
-        "title": "获奖情况",
-        "items": [
-          "2025 卓越毕业论文奖，Texas A&M University（TAMU）",
-          "2024 CaGIS 奖学金，美国制图与地理信息学会（CaGIS）",
-          "2023 ICA 奖学金，国际制图学协会（ICC）",
-          "AAG GISS-SG 学生论文竞赛奖项",
-          "TxGIS Day 研究生科研竞赛奖项"
-        ]
-      }
-    },
+  "en": {
+    "title": "Awards and Honors",
+    "items": [
+      "2025 Distinguished Dissertation Award, Texas A&M University.",
+      "2024 CaGIS Student Scholarships and Awards, Cartography and Geographic Information Society (CaGIS), $1,500.",
+      "2023 ICA Scholarship, International Cartographic Association (ICA), $300.",
+      "2023 USNC Travel Funding for Attending the ICC Conference, United States National Committee (USNC), $2,778.",
+      "2023 Second Place, AAG GISS-SG Student Honors Paper Competition, American Association of Geographers (AAG), $450.",
+      "2023 Spatial Analysis and Modeling (SAM) Student Travel Fund, American Association of Geographers (AAG), $250.",
+      "2022 First Place, TxGIS Day Graduate Student Research Competition, Texas A&M University, $200.",
+      "2022 AutoCarto Student Assistantship, AutoCarto 2022, $750.",
+      "2022 Graduate Student Excellence in Research Award, Texas A&M University, $500.",
+      "2022 Student Travel Fund, American Association of Geographers (AAG), $50.",
+      "2021 Best Paper Award (Ranked 1st among 35 selected presentations as second author), International Symposium on Geospatial Approaches to Combating COVID-19.",
+      "2021 First Place, Geographic Information Science and Systems Student Paper Competition (as third author), American Association of Geographers (AAG).",
+      "2021 Student Travel Fund, American Association of Geographers (AAG), $50.",
+      "2019 Second-Level Progress Award in National Geomatics Science and Technology, Nanjing University of Information Science & Technology, China.",
+      "2017 First-Level Merit-based Scholarship for New Graduate Students, Nanjing University of Information Science & Technology, China.",
+      "2017 Excellent Undergraduate Graduation Thesis among Geomatics Majors in Jiangsu Province, Nanjing University of Information Science & Technology, China.",
+      "2016 Second Prize, 5th National GIS Application Skills Competition for College Students, Nanjing University of Information Science & Technology, China.",
+      "2015 Jiangsu Provincial State Scholarship for Short-term Overseas Exchange, Nanjing University of Information Science & Technology, China.",
+      "2015 First-Level Merit-based Scholarship, Nanjing University of Information Science & Technology, China."
+    ]
+  },
+  "zh": {
+    "title": "获奖情况",
+    "items": [
+      "2025 卓越毕业论文奖，德州农工大学",
+      "2024 CaGIS 奖学金，美国制图与地理信息学会（CaGIS）",
+      "2023 ICA 奖学金，国际制图学协会（ICA）",
+      "2023 国际制图大会（ICC）美国国家委员会（USNC）会议资助",
+      "2023 美国地理学会（AAG）地理信息科学与系统专业组学生荣誉论文竞赛二等奖",
+      "2023 美国地理学会（AAG）空间分析与建模（SAM）专业组学生旅行基金",
+      "2022 德州GIS日（TxGIS Day）研究生研究竞赛一等奖，德州农工大学",
+      "2022 AutoCarto 2022 学生助理奖学金",
+      "2022 研究生卓越科研奖，德州农工大学",
+      "2022 美国地理学会（AAG）学生旅行基金",
+      "2021 国际“地理空间方法应对 COVID-19”专题研讨会最佳论文奖（35篇大会报告中排名第一，第二作者）",
+      "2021 美国地理学会（AAG）地理信息科学与系统学生论文竞赛一等奖（第三作者）",
+      "2021 美国地理学会（AAG）学生旅行基金",
+      "2019 国家测绘科学技术领域二等奖",
+      "2017 南京信息工程大学研究生新生一等奖学金",
+      "2017 江苏省测绘地理专业优秀本科毕业论文奖",
+      "2016 第五届全国GIS应用技能大赛二等奖",
+      "2015 江苏省国家奖学金（资助优秀学生短期海外交流）",
+      "2015 南京信息工程大学一等奖学金"
+    ]
+  }
+},
     "students": {
       "en": {
         "title": "Student Supervision",
