@@ -382,30 +382,45 @@ a:hover{text-decoration:underline}
 
 .student-list{
   display:grid;
-  gap:14px;
+  gap:18px;
 }
 
 .student-card{
   display:flex;
-  gap:16px;
-  align-items:center;
+  align-items:flex-start;
+  gap:20px;
+  padding:6px 0;
 }
 
 .student-photo{
-  width:90px;
-  height:136px;
+  width:100px;
+  height:130px;
   object-fit:cover;
+  object-position:center;
   border:1px solid var(--line);
   background:#f7f7f7;
-}
-
-.student-name{
-  font-weight:700;
-  color:var(--maroon-dark);
+  flex-shrink:0;
 }
 
 .student-info{
-  color:var(--muted);
+  flex:1;
   font-family:Arial,'Noto Sans SC',sans-serif;
+}
+
+.student-name{
+  font-size:20px;
+  font-weight:700;
+  color:var(--maroon-dark);
+  margin-bottom:8px;
+}
+
+.student-degree{
+  color:#555;
+  font-size:15px;
+  margin-bottom:4px;
+}
+
+.student-period{
+  color:#777;
   font-size:14px;
 }
