@@ -160,7 +160,7 @@
   "items": [
     {
       "year": 2026,
-      "authors": "Lin, B., Cai, H., Tian, H., Fu, D., Das, P., Sumiya, N., Yin, Z., and Zou, L.*",
+      "authors": "Lin, B., Cai, H.*, Tian, H., Fu, D., Das, P., Sumiya, N., Yin, Z., and Zou, L.",
       "title": "Quantifying Healthcare Accessibility Disruptions Using Mobile Phone Location Data During Disasters: A Case Study of Hurricane Beryl",
       "venue": "Progress in Disaster Science",
       "volume": "",
@@ -449,7 +449,7 @@
         "items": [
           {
             "text": "2026年至今，兰州交通大学天佑博士后科学基金（一般项目），《多模态交通出行约束下的老年人就医行为模拟》，项目负责人。",
-            "image": "img/project-aging-healthcare.svg"
+            "image": "img/project-aging-healthcare.png"
           }
         ]
       },
