@@ -379,3 +379,33 @@ a:hover{text-decoration:underline}
   .footer{display:block}
   .profile-links{grid-template-columns:1fr}
 }
+
+.student-list{
+  display:grid;
+  gap:14px;
+}
+
+.student-card{
+  display:flex;
+  gap:16px;
+  align-items:center;
+}
+
+.student-photo{
+  width:90px;
+  height:136px;
+  object-fit:cover;
+  border:1px solid var(--line);
+  background:#f7f7f7;
+}
+
+.student-name{
+  font-weight:700;
+  color:var(--maroon-dark);
+}
+
+.student-info{
+  color:var(--muted);
+  font-family:Arial,'Noto Sans SC',sans-serif;
+  font-size:14px;
+}
