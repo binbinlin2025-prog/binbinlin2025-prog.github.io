@@ -18,7 +18,18 @@ function setLang(next){
   $('langToggle').textContent = lang === 'en' ? '中文' : 'EN';
   render();
 }
-function listMarkup(items=[]){ return `<ul class="simple-list">${items.map(x=>`<li>${esc(x)}</li>`).join('')}</ul>`; }
+function itemMarkup(x){
+  if (typeof x === 'string') return `<li>${esc(x)}</li>`;
+
+  const citation = x.citation || '';
+  const status = x.status ? ` <span class="pub-status">(${esc(x.status)})</span>` : '';
+  const link = x.link ? ` <a class="pub-link" href="${x.link}" target="_blank" rel="noopener">[Link]</a>` : '';
+
+  return `<li>${citation}${status}${link}</li>`;
+}
+function listMarkup(items=[]){
+  return `<ul class="simple-list">${items.map(itemMarkup).join('')}</ul>`;
+}
 function groupsMarkup(groups=[]){
   return `<div class="group-list">${groups.map(g=>`<section class="subsection"><h3>${esc(g.title)}</h3>${listMarkup(g.items||[])}</section>`).join('')}</div>`;
 }
@@ -52,7 +63,9 @@ function renderResearch(){
 }
 function renderPublications(){
   const s = siteData.sections.publications;
-  $('publications').innerHTML = `<h2>${t(s).title}</h2><p class="section-note">${t(s).note}</p>${groupsMarkup(s.groups || [])}`;
+  const title = t(s).title || 'Publications';
+  const note = t(s).note ? `<p class="section-note">${t(s).note}</p>` : '';
+  $('publications').innerHTML = `<h2>${title}</h2>${note}${groupsMarkup(s.groups || [])}`;
 }
 function renderListSection(id){
   const s = siteData.sections[id];
