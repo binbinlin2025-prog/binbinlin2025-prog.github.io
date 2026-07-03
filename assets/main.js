@@ -168,7 +168,62 @@ function renderPublications() {
   const note = t(s).note ? `<p class="section-note">${esc(t(s).note)}</p>` : '';
   $('publications').innerHTML = `<h2>${esc(title)}</h2>${note}${groupsMarkup(s.groups || [])}`;
 }
+function projectItemMarkup(item, groupTitle = '') {
+  if (typeof item === 'string') {
+    return `<li>${esc(item)}</li>`;
+  }
 
+  const text = item.text || '';
+  const image = item.image
+    ? `<div class="project-image-box"><img src="${item.image}" alt=""></div>`
+    : '';
+
+  return `
+    <li class="project-feature-item">
+      <div class="project-text">${esc(text)}</div>
+      ${image}
+    </li>
+  `;
+}
+
+function projectGroupsMarkup(groups = []) {
+  return `<div class="group-list">${
+    groups.map(g => {
+      const title =
+        typeof g.title === 'object'
+          ? (g.title[lang] || g.title.en)
+          : g.title;
+
+      const isPI =
+        title === 'Projects as PI' ||
+        title === 'Principal Investigator' ||
+        title === '主持项目';
+
+      const items = g.items || [];
+
+      const itemHTML = isPI
+        ? `<ul class="project-feature-list">${items.map(item => projectItemMarkup(item, title)).join('')}</ul>`
+        : `<ul class="simple-list">${items.map(item => `<li>${typeof item === 'string' ? esc(item) : esc(item.text || '')}</li>`).join('')}</ul>`;
+
+      return `
+        <section class="subsection">
+          <h3>${esc(title)}</h3>
+          ${itemHTML}
+        </section>
+      `;
+    }).join('')
+  }</div>`;
+}
+
+function renderProjects() {
+  const s = siteData.sections.projects;
+  const content = t(s);
+
+  $('projects').innerHTML = `
+    <h2>${esc(content.title || '')}</h2>
+    ${projectGroupsMarkup(content.groups || [])}
+  `;
+}
 function renderListSection(id) {
   const s = siteData.sections[id];
   if (!s) return;
@@ -195,8 +250,8 @@ function render() {
   renderEducation();
   renderResearch();
   renderPublications();
-
-  ['projects', 'teaching', 'awards', 'students', 'patents', 'talks', 'service'].forEach(renderListSection);
+  renderProjects();
+  ['teaching', 'awards', 'students', 'patents', 'talks', 'service'].forEach(renderListSection);
 }
 
 fetch('data/site.json')
