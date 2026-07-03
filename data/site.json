@@ -467,52 +467,43 @@
   }
 },
     "teaching": {
-      "image": "img/module-teaching.svg",
-      "en": {
-        "title": "Teaching",
-        "groups": [
-          {
-            "title": "Courses and Teaching",
-            "items": [
-              "GeoAI Frontiers and Applications",
-              "GIS Programming and Spatial Data Analysis",
-              "Advanced GIS: Spatial Analysis and Statistics",
-              "Principles of Geographic Information Science"
-            ]
-          },
-          {
-            "title": "Teaching Assistant / Guest Lecturer",
-            "items": [
-              "Spring 2024: Advanced GIS (Spatial Analysis and Statistics), Texas A&M University",
-              "Fall 2023: GIS Programming, Texas A&M University",
-              "Spring 2025: Principles of Geographic Information Science, Texas A&M University"
-            ]
-          }
+  "en": {
+    "title": "Teaching",
+    "groups": [
+      {
+        "title": "Instructor",
+        "items": [
+          "Spring 2026. Spatial Data Acquisition and Management, Lanzhou Jiaotong University. 32 credit hours."
         ]
       },
-      "zh": {
-        "title": "教学工作",
-        "groups": [
-          {
-            "title": "主讲与参与课程",
-            "items": [
-              "GeoAI 前沿技术与应用",
-              "GIS 编程与空间数据分析",
-              "高阶 GIS（空间分析与统计）",
-              "地理信息原理"
-            ]
-          },
-          {
-            "title": "助教与客座讲授经历",
-            "items": [
-              "2024 春季：高阶 GIS（空间分析与统计），Texas A&M University",
-              "2023 秋季：GIS 编程，Texas A&M University",
-              "2025 春季：地理信息原理，Texas A&M University"
-            ]
-          }
+      {
+        "title": "Teaching Assistant",
+        "items": [
+          "Spring 2024. Advanced GIS, Texas A&M University. 32 credit hours.",
+          "Fall 2023. GIS Programming, Texas A&M University. 64 credit hours."
         ]
       }
-    },
+    ]
+  },
+  "zh": {
+    "title": "教学工作",
+    "groups": [
+      {
+        "title": "主讲课程",
+        "items": [
+          "2026 春季，空间数据采集与管理，兰州交通大学，32 学时。"
+        ]
+      },
+      {
+        "title": "教学助理",
+        "items": [
+          "2024 春季，高阶地理信息科学（空间分析与统计），德州农工大学，32 学时。",
+          "2023 秋季，GIS编程（Python），德州农工大学，64 学时。"
+        ]
+      }
+    ]
+  }
+},
     "awards": {
       "en": {
         "title": "Awards and Honors",
