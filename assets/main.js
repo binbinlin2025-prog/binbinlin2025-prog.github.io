@@ -228,6 +228,44 @@ function renderProjects() {
   `;
 }
 
+function studentItemMarkup(item) {
+  if (typeof item === 'string') return `<li>${esc(item)}</li>`;
+
+  return `
+    <div class="student-card">
+      <img class="student-photo" src="${item.photo}" alt="${esc(item.name)}">
+      <div>
+        <div class="student-name">${esc(item.name)}</div>
+        <div class="student-info">${esc(item.degree)}</div>
+        <div class="student-info">${esc(item.period)}</div>
+      </div>
+    </div>
+  `;
+}
+
+function studentGroupsMarkup(groups = []) {
+  return `<div class="group-list">${
+    groups.map(g => `
+      <section class="subsection">
+        <h3>${esc(g.title)}</h3>
+        <div class="student-list">
+          ${(g.items || []).map(studentItemMarkup).join('')}
+        </div>
+      </section>
+    `).join('')
+  }</div>`;
+}
+
+function renderStudents() {
+  const s = siteData.sections.students;
+  const content = t(s);
+
+  $('students').innerHTML = `
+    <h2>${esc(content.title || '')}</h2>
+    ${studentGroupsMarkup(content.groups || [])}
+  `;
+}
+
 function renderListSection(id) {
   const s = siteData.sections[id];
   if (!s) return;
@@ -255,7 +293,8 @@ function render() {
   renderResearch();
   renderPublications();
   renderProjects();
-  ['teaching', 'awards', 'students', 'patents', 'talks', 'service'].forEach(renderListSection);
+  renderStudents();
+  ['teaching', 'awards', 'patents', 'talks', 'service'].forEach(renderListSection);
 }
 
 fetch('data/site.json')
