@@ -174,7 +174,7 @@ function projectItemMarkup(item, isPI = false) {
     return `<li>${esc(item)}</li>`;
   }
 
-  const text = esc(item.text || '');
+  const text = esc(item.text || '').replace(/\n/g, '<br>');
   const image = item.image
     ? `<img src="${item.image}" alt="Project image">`
     : `<div class="project-placeholder">${lang === 'zh' ? '项目图片' : 'Project Image'}</div>`;
