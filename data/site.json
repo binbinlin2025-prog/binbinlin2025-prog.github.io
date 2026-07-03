@@ -1,0 +1,356 @@
+{
+  "profile": {
+    "photo": "img/profile-placeholder.svg",
+    "en": {
+      "name": "Binbin Lin",
+      "name_sub": "林彬彬",
+      "title": "Lecturer / Tianyou Associate Professor",
+      "affiliation": "Department of Geographic Information Science, Faculty of Geomatics, Lanzhou Jiaotong University",
+      "address": "No. 88 Anning West Road, Lanzhou, Gansu, China",
+      "email": "bb2020@tamu.edu",
+      "research_keywords": "Geospatial Big Data · Social Sensing · Public Health · Spatiotemporal Analysis and Modeling · GeoAI",
+      "bio": "Dr. Binbin Lin is a Lecturer / Tianyou Associate Professor in the Department of Geographic Information Science, Faculty of Geomatics, Lanzhou Jiaotong University. Her research focuses on geospatial big data, social sensing, public health, spatiotemporal analysis and modeling, and geospatial artificial intelligence."
+    },
+    "zh": {
+      "name": "林彬彬",
+      "name_sub": "Binbin Lin",
+      "title": "讲师（校聘天佑副教授）",
+      "affiliation": "兰州交通大学 测绘与地理信息学院 地信系",
+      "address": "甘肃省兰州市安宁西路88号",
+      "email": "bb2020@tamu.edu",
+      "research_keywords": "地理大数据 · 社会感知 · 公共健康 · 时空分析与建模 · 地理人工智能",
+      "bio": "林彬彬，女，理学博士，兰州交通大学测绘与地理信息学院地信系教师，讲师（校聘天佑副教授）。主要从事地理大数据、社会感知、公共健康、时空分析与建模、地理人工智能等方向研究。"
+    },
+    "links": [
+      {
+        "label": "Google Scholar",
+        "url": "#"
+      },
+      {
+        "label": "ORCID",
+        "url": "#"
+      },
+      {
+        "label": "CV",
+        "url": "assets/Binbin-Lin-CV.pdf"
+      },
+      {
+        "label": "Email",
+        "url": "mailto:bb2020@tamu.edu"
+      }
+    ]
+  },
+  "sections": {
+    "about": {
+      "image": "img/module-research.svg",
+      "en": {
+        "title": "Profile",
+        "body": "Dr. Lin studies how spatial data, human behavior, and public health systems interact across time and space. Her work integrates GIScience, GeoAI, mobile phone location data, social media data, spatial statistics, and machine learning to examine health inequality, healthcare accessibility, disaster disruption, social sensing, and urban resilience."
+      },
+      "zh": {
+        "title": "教师简介",
+        "body": "林彬彬博士现为兰州交通大学测绘与地理信息学院地信系教师，讲师（校聘天佑副教授）。研究工作面向地理空间大数据与公共健康问题，综合运用GIScience、GeoAI、社会感知、手机位置数据、社交媒体数据、空间统计与机器学习方法，关注公共健康不平等、医疗可达性、灾害扰动、人群行为响应与城市韧性等议题。"
+      }
+    },
+    "education": {
+      "en": {
+        "title": "Education and Experience",
+        "groups": [
+          {
+            "title": "Academic Appointment",
+            "items": [
+              "2025.07–present, Lanzhou Jiaotong University, Faculty of Geomatics"
+            ]
+          },
+          {
+            "title": "Education",
+            "items": [
+              "Ph.D. in Geography, Texas A&M University",
+              "M.S. / B.S. in Geographic Information Science"
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "教育经历与工作经历",
+        "groups": [
+          {
+            "title": "工作经历",
+            "items": [
+              "2025.07 至今，兰州交通大学，测绘与地理信息学院"
+            ]
+          },
+          {
+            "title": "教育经历",
+            "items": [
+              "美国 Texas A&M University，地理学博士",
+              "地理信息科学相关专业硕士、学士"
+            ]
+          }
+        ]
+      }
+    },
+    "research": {
+      "en": {
+        "title": "Research Interests"
+      },
+      "zh": {
+        "title": "研究方向"
+      },
+      "items": [
+        {
+          "image": "img/module-geoai.svg",
+          "en": {
+            "title": "Geospatial Big Data and GeoAI",
+            "text": "Geospatial artificial intelligence, spatial machine learning, spatiotemporal modeling, and spatial decision support."
+          },
+          "zh": {
+            "title": "地理大数据与地理人工智能",
+            "text": "围绕地理空间大数据组织、时空建模、GeoAI 方法与空间决策支持开展研究。"
+          }
+        },
+        {
+          "image": "img/module-health.svg",
+          "en": {
+            "title": "Public Health Geography",
+            "text": "Healthcare accessibility, health inequality, mental health, occupational stress, and health system disruption."
+          },
+          "zh": {
+            "title": "公共健康与健康地理",
+            "text": "关注医疗可达性、公共健康不平等、心理健康、职业压力以及扰动情境下的健康系统响应。"
+          }
+        },
+        {
+          "image": "img/module-mobility.svg",
+          "en": {
+            "title": "Social Sensing and Human Mobility",
+            "text": "Social media, mobile phone location data, public sentiment, behavioral signals, and crisis response."
+          },
+          "zh": {
+            "title": "社会感知与人群流动",
+            "text": "利用社交媒体、手机位置数据与行为感知数据，刻画公众情绪、出行行为与危机响应。"
+          }
+        },
+        {
+          "image": "img/module-resilience.svg",
+          "en": {
+            "title": "Disaster and Urban Resilience",
+            "text": "Spatial exposure, vulnerability, recovery, adaptation, and resilience of cities and health systems."
+          },
+          "zh": {
+            "title": "灾害影响与城市韧性",
+            "text": "研究灾害扰动下城市与健康系统的空间暴露、脆弱性、恢复、适应与韧性。"
+          }
+        }
+      ]
+    },
+    "publications": {
+      "en": {
+        "title": "Publications",
+        "note": "Publication information is kept in English for citation consistency."
+      },
+      "zh": {
+        "title": "论文论著",
+        "note": "论文、会议论文和学术专著条目信息保留英文，便于引用、检索与国际交流。"
+      },
+      "groups": [
+        {
+          "title": "Journal Articles",
+          "items": [
+            "Lin, B., Zou, L.*, Duffield N., Mostafavi A., Cai, H., Zhou, B., Tao, J., Yang, M., Mandal, D. and Abedin, J. 2022. Revealing the Linguistic and Geographical Disparities of Public Awareness to Covid-19 Outbreak through Social Media. International Journal of Digital Earth 15(1), 868–889.",
+            "Lin, B., Dai, Y., Zou, L.*, and Ning, N. 2024. Modeling the Impacts of Governmental and Human Responses on COVID-19 Spread Using Statistical Machine Learning. International Journal of Digital Earth 17(1), 2434651.",
+            "Lin, B., Zou, L.*, Zhao, B., Huang, X., Cai, H., Yang, M., and Zhou, B. 2024. Sensing the pulse of the pandemic: unveiling the geographical and demographic disparities of public sentiment toward COVID-19 through social media. Cartography and Geographic Information Science.",
+            "Lin, B., Zou, L.*, Yang, M., Zhou, B., Mandal, D., Abedin, J., Cai, H., and Ning, N. 2024. Progress in understanding human-COVID-19 dynamics using geospatial big data: a systematic review. Annals of GIS.",
+            "Zhou, B., Zou, L.*, Yang, M., Lin, B., Mandal, D., and Abedin, J. 2024. Overlooked voices under strict lockdown: mapping humanitarian needs in 2022 Shanghai COVID-19 outbreak. Cartography and Geographic Information Science.",
+            "Zhou, B., Zou, L.*, Mostafavi, A., Lin, B., Yang, M., Gharaibeh, N., Cai, H., Abedin, J., and Mandal, D. 2022. VictimFinder: Harvesting rescue requests in disaster response from social media with BERT. Computers, Environment and Urban Systems 95, 101824.",
+            "Yang, M., Zou, L.*, Cai, H., Qiang, Y., Lin, B., Zhou, B., Abedin, J., and Mandal, D. 2022. Spatial–Temporal Land Loss Modeling and Simulation in a Vulnerable Coast: A Case Study in Coastal Louisiana. Remote Sensing 14(4), 896."
+          ]
+        },
+        {
+          "title": "Conference Papers",
+          "items": [
+            "Lin, B. Mapping the temporally evolved geographic disparities of public perceptions of COVID-19 through social media. In 31st International Cartographic Conference (ICC 2023), 6:142.",
+            "Zou, L.*, Li, W., Yang, M., Lin, B., Abedin, J. The impact of social isolation on sleep disturbances – evidence from geospatial big data during COVID-19. In 31st International Cartographic Conference (ICC 2023), 6:293.",
+            "Zou, L.*, Zhou, B., Lin, B., Mandal, D., Yang, M., Abedin, J. Smart Disaster Response with GeoAI and Big Data. AGU 2023.",
+            "Cai, H., Lin, B., Li, D., Zou, L*. Revealing Disaster Resilience Inequalities during Texas 2021 Winter Storm through Geospatial Data Mining. AGU 2022."
+          ]
+        },
+        {
+          "title": "Book Chapters",
+          "items": [
+            "Zhou, B., Lin, B., Zou, L.*, Yang, M., Tian, H., and Cai, H. Integrating Natural Language Processing in Human Geography. GeoAI and Human Geography.",
+            "Zou, L.*, Mostafavi, A., Zhou, B., Lin, B., Yang, M., Abedin, J., Mandal, D., and Cai, H. GeoAI for Disaster Response. Handbook of GeoAI."
+          ]
+        }
+      ]
+    },
+    "projects": {
+      "image": "img/module-projects.svg",
+      "en": {
+        "title": "Research Projects",
+        "groups": [
+          {
+            "title": "Selected Projects",
+            "items": [
+              "2024–2025, Gulf Research Program of the U.S. National Academies of Sciences, Engineering, and Medicine. Climate-LEAD: Localized Environmental and Health Disparities in Climate-Burdened Communities along the Texas Gulf Coast. Research Assistant."
+            ]
+          },
+          {
+            "title": "Current Research Themes",
+            "items": [
+              "Healthcare accessibility and mobility disruptions during disasters",
+              "Multidimensional social sensing for public health inequality",
+              "Work stress, sleep dimensions, and depressive symptoms",
+              "GeoAI methods for urban and health resilience"
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "科研项目",
+        "groups": [
+          {
+            "title": "代表性项目",
+            "items": [
+              "2024–2025，美国国家科学院、工程院与医学院墨西哥湾研究计划：Climate-LEAD：气候对墨西哥湾沿岸德州重负社区局部环境健康差异的影响（研究助理）。"
+            ]
+          },
+          {
+            "title": "近期研究主题",
+            "items": [
+              "灾害情境下医疗可达性与人群流动扰动",
+              "多维社会感知与公共健康不平等",
+              "职业压力、睡眠维度与抑郁症状",
+              "面向城市与健康韧性的 GeoAI 方法"
+            ]
+          }
+        ]
+      }
+    },
+    "teaching": {
+      "image": "img/module-teaching.svg",
+      "en": {
+        "title": "Teaching",
+        "groups": [
+          {
+            "title": "Courses and Teaching",
+            "items": [
+              "GeoAI Frontiers and Applications",
+              "GIS Programming and Spatial Data Analysis",
+              "Advanced GIS: Spatial Analysis and Statistics",
+              "Principles of Geographic Information Science"
+            ]
+          },
+          {
+            "title": "Teaching Assistant / Guest Lecturer",
+            "items": [
+              "Spring 2024: Advanced GIS (Spatial Analysis and Statistics), Texas A&M University",
+              "Fall 2023: GIS Programming, Texas A&M University",
+              "Spring 2025: Principles of Geographic Information Science, Texas A&M University"
+            ]
+          }
+        ]
+      },
+      "zh": {
+        "title": "教学工作",
+        "groups": [
+          {
+            "title": "主讲与参与课程",
+            "items": [
+              "GeoAI 前沿技术与应用",
+              "GIS 编程与空间数据分析",
+              "高阶 GIS（空间分析与统计）",
+              "地理信息原理"
+            ]
+          },
+          {
+            "title": "助教与客座讲授经历",
+            "items": [
+              "2024 春季：高阶 GIS（空间分析与统计），Texas A&M University",
+              "2023 秋季：GIS 编程，Texas A&M University",
+              "2025 春季：地理信息原理，Texas A&M University"
+            ]
+          }
+        ]
+      }
+    },
+    "awards": {
+      "en": {
+        "title": "Awards and Honors",
+        "items": [
+          "2025 Excellence in Doctoral Dissertation Award, Texas A&M University",
+          "2024 CaGIS Scholarship Award, Cartography and Geographic Information Society",
+          "2023 ICA Scholarship, International Cartographic Association",
+          "AAG GISS-SG Student Honors Paper Competition",
+          "TxGIS Day Graduate Student Research Competition"
+        ]
+      },
+      "zh": {
+        "title": "获奖情况",
+        "items": [
+          "2025 卓越毕业论文奖，Texas A&M University（TAMU）",
+          "2024 CaGIS 奖学金，美国制图与地理信息学会（CaGIS）",
+          "2023 ICA 奖学金，国际制图学协会（ICC）",
+          "AAG GISS-SG 学生论文竞赛奖项",
+          "TxGIS Day 研究生科研竞赛奖项"
+        ]
+      }
+    },
+    "students": {
+      "en": {
+        "title": "Student Supervision",
+        "body": "Prospective students interested in GIScience, GeoAI, public health geography, social sensing, spatial data science, and disaster resilience are welcome to contact me."
+      },
+      "zh": {
+        "title": "研究生培养",
+        "body": "欢迎对地理信息科学、地理人工智能、公共健康地理、社会感知、空间数据科学、灾害与城市韧性等方向感兴趣的同学联系交流。"
+      }
+    },
+    "patents": {
+      "en": {
+        "title": "Patents and Software Copyrights",
+        "body": "This section can be updated as patents, software copyrights, datasets, and open-source tools become available."
+      },
+      "zh": {
+        "title": "专利与软著",
+        "body": "本栏目可用于更新专利、软件著作权、数据产品与开源工具等成果。"
+      }
+    },
+    "talks": {
+      "en": {
+        "title": "Presentations and Conferences",
+        "items": [
+          "CPGIS Conference presentation on healthcare accessibility disruptions using mobile phone location data",
+          "AAG Annual Meeting presentations on GeoAI, social sensing, and human-pandemic dynamics",
+          "ICC and AGU presentations on social sensing, disaster response, and public health geography"
+        ]
+      },
+      "zh": {
+        "title": "学术报告与会议",
+        "items": [
+          "CPGIS 会议报告：基于手机位置数据的灾害期间医疗可达性扰动量化研究",
+          "AAG 年会报告：GeoAI、社会感知与人类—疫情动态研究",
+          "ICC 与 AGU 会议报告：社会感知、灾害响应与公共健康地理相关研究"
+        ]
+      }
+    },
+    "service": {
+      "en": {
+        "title": "Academic Service",
+        "items": [
+          "AAG GISS-SG Student Director",
+          "Session organizer for GeoAI, social sensing, and human-pandemic dynamics",
+          "Reviewer for journals in GIScience, disaster risk, urban computing, public health, and remote sensing"
+        ]
+      },
+      "zh": {
+        "title": "学术服务",
+        "items": [
+          "AAG GISS-SG Student Director",
+          "组织 GeoAI、社会感知与人类—疫情动态相关专题会议",
+          "担任 GIScience、灾害风险、城市计算、公共健康与遥感方向期刊审稿人"
+        ]
+      }
+    }
+  }
+}
