@@ -301,18 +301,17 @@ a:hover{text-decoration:underline}
 
 .project-card-image{
   border:1px solid var(--line);
-  background:var(--soft);
-  min-height:150px;
+  background:#fff;
   display:flex;
   align-items:center;
   justify-content:center;
-  padding:8px;
+  padding:10px;
 }
 
 .project-card-image img{
   width:100%;
-  height:150px;
-  object-fit:cover;
+  height:auto;
+  object-fit:contain;
   display:block;
 }
 
