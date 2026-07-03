@@ -6,6 +6,7 @@
       "name_sub": "林彬彬",
       "title": "Associate Professor\n(Tianyou Distinguished Track)",
       "affiliation": "Faculty of Geomatics\nLanzhou Jiaotong University",
+      "address": "Room 1502, Duxing Building,LZJTU",
       "email": "binbinlin.2025@gmail.com\nbinbinlin@lzjtu.edu.cn",
       "research_keywords": ["Geospatial Big Data","Social Sensing","Public Health","Spatiotemporal Analysis and Modeling","GeoAI"],
       "bio": "Dr. Binbin Lin is an Associate Professor (Tianyou Distinguished Track) in the Faculty of Geomatics at Lanzhou Jiaotong University. She received her Ph.D. in Geography from Texas A&M University in 2025 under the supervision of Prof. Lei Zou.\nHer research lies at the intersection of GIScience, Geospatial Artificial Intelligence (GeoAI), social sensing, geospatial big data, public health, and spatiotemporal analytics, with a particular focus on understanding human-environment interactions and developing data-driven approaches to address challenges in public health, disasters, and sustainable cities."
@@ -50,8 +51,8 @@
       {
         "title": "Appointments",
         "items": [
-          "Jul. 2025–Present    Associate Professor (Tianyou Distinguished Track), Faculty of Geomatics, Lanzhou Jiaotong University",
-          "Jul. 2025–Present    Postdoctoral Research Fellow, Faculty of Geomatics, Lanzhou Jiaotong University (Supervisors: Haowen Yan and Liang Zhou)",
+          "Jul. 2025–    Associate Professor (Tianyou Distinguished Track), Faculty of Geomatics, Lanzhou Jiaotong University",
+          "Jul. 2025–    Postdoctoral Research Fellow, Faculty of Geomatics, Lanzhou Jiaotong University (Supervisors: Haowen Yan and Liang Zhou)",
           "Dec 2020–May 2021    Research Assistant, Aerospace Information Research Institute, Chinese Academy of Sciences (Supervisors: Bing Zhang and Dailiang Peng)"
         ]
       },
@@ -80,9 +81,9 @@
       {
         "title": "教育经历",
         "items": [
-          "2021.08–2025.05，Texas A&M University，美国德州农工大学，地理学，博士研究生，理学博士（导师：邹雷）",
+          "2021.08–2025.05，美国德州农工大学，地理学，博士研究生，理学博士（导师：邹雷）",
           "2017.09–2020.06，南京信息工程大学，3S集成与气象应用，硕士研究生，理学硕士（导师：邱新法）",
-          "2015.07–2015.08，Saint Louis University，美国圣路易斯大学，地理学，GIS暑期交流项目",
+          "2015.07–2015.08，美国圣路易斯大学，地理学，GIS暑期交流项目",
           "2013.09–2017.06，南京信息工程大学，地理信息科学，本科，理学学士"
         ]
       }
