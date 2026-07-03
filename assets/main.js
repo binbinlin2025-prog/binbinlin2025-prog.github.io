@@ -229,15 +229,20 @@ function renderProjects() {
 }
 
 function studentItemMarkup(item) {
-  if (typeof item === 'string') return `<li>${esc(item)}</li>`;
+  if (typeof item === 'string') {
+    return `<li>${esc(item)}</li>`;
+  }
 
   return `
     <div class="student-card">
-      <img class="student-photo" src="${item.photo}" alt="${esc(item.name)}">
-      <div>
+      <img class="student-photo"
+           src="${item.photo}"
+           alt="${esc(item.name)}">
+
+      <div class="student-info">
         <div class="student-name">${esc(item.name)}</div>
-        <div class="student-info">${esc(item.degree)}</div>
-        <div class="student-info">${esc(item.period)}</div>
+        <div class="student-degree">${esc(item.degree)}</div>
+        <div class="student-period">${esc(item.period)}</div>
       </div>
     </div>
   `;
