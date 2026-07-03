@@ -561,13 +561,12 @@
       {
         "title": "Current Students",
         "items": [
-          "M.S. Student (Fall 2026–Present): Xin Wang"
-        ]
-      },
-      {
-        "title": "Prospective Students",
-        "items": [
-          "Prospective students interested in GIScience, GeoAI, public health geography, social sensing, spatial data science, disaster resilience, and spatial AI are welcome to contact me."
+          {
+            "name": "Xin Wang",
+            "degree": "M.S. Student",
+            "period": "Fall 2026–Present",
+            "photo": "img/students-xinwang.jpg"
+          }
         ]
       }
     ]
@@ -578,13 +577,12 @@
       {
         "title": "在读研究生",
         "items": [
-          "2026级硕士研究生：王鑫"
-        ]
-      },
-      {
-        "title": "招生信息",
-        "items": [
-          "欢迎对地理信息科学（GIScience）、地理人工智能（GeoAI）、公共健康地理、社会感知、空间数据科学、灾害与城市韧性等方向感兴趣的同学联系交流。"
+          {
+            "name": "王鑫",
+            "degree": "硕士研究生",
+            "period": "2026级",
+            "photo": "img/students-xinwang.jpg"
+          }
         ]
       }
     ]
