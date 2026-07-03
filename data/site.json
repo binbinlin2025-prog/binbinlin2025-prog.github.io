@@ -313,14 +313,70 @@
   ]
 },
         {
-          "title": "Conference Papers",
-          "items": [
-            "Lin, B. Mapping the temporally evolved geographic disparities of public perceptions of COVID-19 through social media. In 31st International Cartographic Conference (ICC 2023), 6:142.",
-            "Zou, L.*, Li, W., Yang, M., Lin, B., Abedin, J. The impact of social isolation on sleep disturbances – evidence from geospatial big data during COVID-19. In 31st International Cartographic Conference (ICC 2023), 6:293.",
-            "Zou, L.*, Zhou, B., Lin, B., Mandal, D., Yang, M., Abedin, J. Smart Disaster Response with GeoAI and Big Data. AGU 2023.",
-            "Cai, H., Lin, B., Li, D., Zou, L*. Revealing Disaster Resilience Inequalities during Texas 2021 Winter Storm through Geospatial Data Mining. AGU 2022."
-          ]
-        },
+  "title": "Conference Papers",
+  "items": [
+    {
+      "year": 2023,
+      "authors": "Lin, B.",
+      "title": "Mapping the Temporally Evolved Geographic Disparities of Public Perceptions of COVID-19 through Social Media",
+      "journal": "31st International Cartographic Conference (ICC)",
+      "volume": "6",
+      "pages": "142",
+      "status": "Published",
+      "link": ""
+    },
+    {
+      "year": 2023,
+      "authors": "Zou, L.*, Li, W., Yang, M., Lin, B., and Abedin, J.",
+      "title": "The Impact of Social Isolation on Sleep Disturbances: Evidence from Geospatial Big Data during COVID-19",
+      "journal": "31st International Cartographic Conference (ICC)",
+      "volume": "6",
+      "pages": "293",
+      "status": "Published",
+      "link": ""
+    },
+    {
+      "year": 2023,
+      "authors": "Zou, L.*, Zhou, B., Lin, B., Mandal, D., Yang, M., and Abedin, J.",
+      "title": "Smart Disaster Response with GeoAI and Big Data",
+      "journal": "AGU Fall Meeting",
+      "volume": "2023",
+      "pages": "",
+      "status": "Published",
+      "link": ""
+    },
+    {
+      "year": 2022,
+      "authors": "Zou, L.*, Cai, H., Mandal, D., Abedin, J., Yang, M., and Lin, B.",
+      "title": "Empowering Smart Disaster Response with Social Media and GeoAI",
+      "journal": "AGU Fall Meeting",
+      "volume": "2022",
+      "pages": "",
+      "status": "Published",
+      "link": ""
+    },
+    {
+      "year": 2022,
+      "authors": "Cai, H., Lin, B., Li, D., and Zou, L.*",
+      "title": "Revealing Disaster Resilience Inequalities during Texas 2021 Winter Storm through Geospatial Data Mining",
+      "journal": "AGU Fall Meeting",
+      "volume": "2022",
+      "pages": "",
+      "status": "Published",
+      "link": ""
+    },
+    {
+      "year": 2022,
+      "authors": "Abedin, J., Zou, L.*, Yang, M., Rohli, R., Mandal, D., Qiang, Y., Akter, H., Zhou, B., Lin, B., and Cai, H.",
+      "title": "Deciphering Spatial-Temporal Dynamics of Flood Exposure in the United States",
+      "journal": "AGU Fall Meeting",
+      "volume": "2022",
+      "pages": "",
+      "status": "Published",
+      "link": ""
+    }
+  ]
+},
         {
           "title": "Book Chapters",
           "items": [
