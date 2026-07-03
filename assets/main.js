@@ -52,9 +52,11 @@ function itemMarkup(x){
     x.status && x.status !== "Published"
       ? ` <span class="pub-status">(${esc(x.status)})</span>`
       : '';
-  const link = x.link
-    ? ` <a class="pub-link" href="${x.link}" target="_blank" rel="noopener">[Link]</a>`
-    : '';
+const linkText = lang === "zh" ? "链接" : "Paper";
+
+const link = x.link
+  ? ` <a class="pub-link" href="${x.link}" target="_blank" rel="noopener">${linkText}</a>`
+  : '';
 
   return `<li>${citation}${status}${link}</li>`;
 }
@@ -62,7 +64,21 @@ function listMarkup(items=[]){
   return `<ul class="simple-list">${items.map(itemMarkup).join('')}</ul>`;
 }
 function groupsMarkup(groups=[]){
-  return `<div class="group-list">${groups.map(g=>`<section class="subsection"><h3>${esc(g.title)}</h3>${listMarkup(g.items||[])}</section>`).join('')}</div>`;
+  return `<div class="group-list">${
+    groups.map(g=>{
+
+      const title =
+        typeof g.title === "object"
+        ? (g.title[lang] || g.title.en)
+        : g.title;
+
+      return `
+      <section class="subsection">
+        <h3>${esc(title)}</h3>
+        ${listMarkup(g.items||[])}
+      </section>`;
+    }).join('')
+  }</div>`;
 }
 function renderProfile(){
   const p = t(siteData.profile);
