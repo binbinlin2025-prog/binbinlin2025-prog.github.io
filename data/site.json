@@ -417,48 +417,50 @@
       ]
     },
     "projects": {
-      "image": "img/module-projects.svg",
-      "en": {
-        "title": "Research Projects",
-        "groups": [
-          {
-            "title": "Selected Projects",
-            "items": [
-              "2024–2025, Gulf Research Program of the U.S. National Academies of Sciences, Engineering, and Medicine. Climate-LEAD: Localized Environmental and Health Disparities in Climate-Burdened Communities along the Texas Gulf Coast. Research Assistant."
-            ]
-          },
-          {
-            "title": "Current Research Themes",
-            "items": [
-              "Healthcare accessibility and mobility disruptions during disasters",
-              "Multidimensional social sensing for public health inequality",
-              "Work stress, sleep dimensions, and depressive symptoms",
-              "GeoAI methods for urban and health resilience"
-            ]
-          }
+  "image": "img/module-projects.svg",
+  "en": {
+    "title": "Research Projects",
+    "groups": [
+      {
+        "title": "Projects as PI",
+        "items": [
+          "2026–Present. Tianyou Postdoctoral Science Foundation, Lanzhou Jiaotong University (General Program). \"Modeling Healthcare-Seeking Behaviors of Older Adults under Multimodal Transportation Constraints.\" Principal Investigator."
         ]
       },
-      "zh": {
-        "title": "科研项目",
-        "groups": [
-          {
-            "title": "代表性项目",
-            "items": [
-              "2024–2025，美国国家科学院、工程院与医学院墨西哥湾研究计划：Climate-LEAD：气候对墨西哥湾沿岸德州重负社区局部环境健康差异的影响（研究助理）。"
-            ]
-          },
-          {
-            "title": "近期研究主题",
-            "items": [
-              "灾害情境下医疗可达性与人群流动扰动",
-              "多维社会感知与公共健康不平等",
-              "职业压力、睡眠维度与抑郁症状",
-              "面向城市与健康韧性的 GeoAI 方法"
-            ]
-          }
+      {
+        "title": "Participating Projects",
+        "items": [
+          "2024–2025. Research Assistant. National Academies of Sciences, Engineering, and Medicine (NASEM) Gulf Research Program (GRP). \"Climate-LEAD: Climate Effects on Localized Environmental Health Disparities in Overburdened Texas Communities along the Gulf Coast.\" PI: Lei Zou, Texas A&M University. (US$1,499,990).",
+          "2023–2025. Research Assistant. National Science Foundation (NSF) Human Networks and Data Science (HNDS). \"Collaborative Research: HNDS-I: A Cyberinfrastructure for Multiscale Human Dynamics and Resilience (HDR) Research.\" PI: Nina Lam, Louisiana State University. (US$1,096,902).",
+          "2022–2023. Research Assistant. Texas A&M Seed Funds for Collaboration among Three Merging Colleges. \"Statistical Machine Learning Meets High-Dimensional Spatiotemporal Challenges: A Case Study of COVID-19 Modeling and Prediction.\" PI: Ning Ning, Texas A&M University.",
+          "2021–2023. Research Assistant. Texas A&M Institute of Data Sciences – Data Resource Development Program. \"Tracking Social and Governmental Responses to COVID-19 Using Geospatial Big Data.\" PI: Lei Zou, Texas A&M University. (US$27,000).",
+          "2021–2023. Research Assistant. Texas A&M Innovation [X] Program. \"Restoring Happiness: Leveraging GeoAI and Social Engagement to Address Happiness Inequalities after COVID-19 and Winter Storm Uri.\" PI: Heng Cai, Texas A&M University. (US$20,000)."
         ]
       }
-    },
+    ]
+  },
+  "zh": {
+    "title": "科研项目",
+    "groups": [
+      {
+        "title": "主持项目",
+        "items": [
+          "2026年至今，兰州交通大学天佑博士后科学基金（一般项目），《多模态交通出行约束下的老年人就医行为模拟》，项目负责人。"
+        ]
+      },
+      {
+        "title": "参与项目",
+        "items": [
+          "2024–2025，研究助理，美国国家科学院、工程院与医学院（NASEM）墨西哥湾研究计划（GRP），《Climate-LEAD：气候对墨西哥湾沿岸德州重负社区局部环境健康差异的影响》，负责人：邹雷（Texas A&M University）。",
+          "2023–2025，研究助理，美国国家科学基金会（NSF）人类网络与数据科学（HNDS）项目，《协作研究：HNDS-I：多尺度人类动态与韧性（HDR）研究的网络基础设施》，负责人：Nina Lam（Louisiana State University）。",
+          "2022–2023，研究助理，德州农工大学三院联合合作种子基金，《统计机器学习应对高维时空挑战——以 COVID-19 建模与预测为案例研究》，负责人：Ning Ning（Texas A&M University）。",
+          "2021–2023，研究助理，德州农工大学数据科学研究所-数据资源开发项目，《利用地理空间大数据追踪 COVID-19 的社会和政府响应》，负责人：邹雷（Texas A&M University）。",
+          "2021–2023，研究助理，德州农工大学创新[X]项目，《恢复幸福感：利用 GeoAI 与社会参与应对 COVID-19 和冬季风暴 Uri 后幸福感不平等》，负责人：蔡衡（Texas A&M University）。"
+        ]
+      }
+    ]
+  }
+},
     "teaching": {
       "image": "img/module-teaching.svg",
       "en": {
