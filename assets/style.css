@@ -200,17 +200,28 @@ a:hover{text-decoration:underline}
 }
 .research-item{
   display:grid;
-  grid-template-columns:90px 1fr;
-  gap:14px;
+  grid-template-columns:140px 1fr;
+  gap:22px;
+  align-items:center;
   border:1px solid var(--line);
-  padding:14px;
+  padding:18px;
   background:var(--soft2);
 }
+
 .research-item img{
-  width:90px;
-  height:70px;
+  width:140px;
+  aspect-ratio:9/16;
   object-fit:cover;
+  object-position:top;
   border:1px solid var(--line);
+  background:white;
+  display:block;
+  align-self:center; 
+  transition:.25s;
+}
+
+.research-item:hover img{
+  transform:scale(1.03);
 }
 
 .pub-list{
