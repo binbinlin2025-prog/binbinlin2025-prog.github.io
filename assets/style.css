@@ -185,12 +185,13 @@ a:hover{text-decoration:underline}
   display:grid;
   grid-template-columns:1fr 190px;
   gap:22px;
-  align-items:start;
+  align-items:center;
 }
 .module-img{
   width:100%;
   border:1px solid var(--line);
   background:#f3eeee;
+  align-self:center; 
 }
 
 .research-grid{
