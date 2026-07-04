@@ -18,8 +18,10 @@ function text(key) {
       nav_teaching: 'Teaching',
       nav_awards: 'Awards',
       nav_students: 'Students',
+      nav_talks:'Presentations',
+      nav_patents:'Patents',
       nav_service: 'Service',
-      footer_note: 'Built with GitHub Pages'
+      footer_note: 'Lanzhou Jiaotong University'
     },
     zh: {
       nav_about: '教师简介',
@@ -28,9 +30,11 @@ function text(key) {
       nav_projects: '科研项目',
       nav_teaching: '教学工作',
       nav_awards: '获奖情况',
-      nav_students: '研究生培养',
+      nav_students: '学生培养',
+      nav_talks:'学术报告',
+      nav_patents:'专利软著',
       nav_service: '学术服务',
-      footer_note: '基于 GitHub Pages 构建'
+      footer_note: '兰州交通大学 测绘与地理信息学院'
     }
   };
   return dict[lang][key] || '';
