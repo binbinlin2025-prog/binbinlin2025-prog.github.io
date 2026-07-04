@@ -99,7 +99,7 @@
       },
       "items": [
         {
-          "image": "img/module-geoai.svg",
+          "image": "img/module-geoai.png",
           "en": {
             "title": "Geospatial Big Data and GeoAI",
             "text": "Geospatial artificial intelligence, spatial machine learning, spatiotemporal modeling, and spatial decision support."
@@ -121,7 +121,7 @@
           }
         },
         {
-          "image": "img/module-mobility.svg",
+          "image": "img/module-mobility.png",
           "en": {
             "title": "Social Sensing and Human Mobility",
             "text": "Social media, mobile phone location data, public sentiment, behavioral signals, and crisis response."
@@ -132,7 +132,7 @@
           }
         },
         {
-          "image": "img/module-resilience.svg",
+          "image": "img/module-resilience.png",
           "en": {
             "title": "Disaster and Urban Resilience",
             "text": "Spatial exposure, vulnerability, recovery, adaptation, and resilience of cities and health systems."
