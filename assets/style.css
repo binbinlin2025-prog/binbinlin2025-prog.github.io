@@ -415,7 +415,7 @@ a:hover{text-decoration:underline}
 
 .student-list{
   display:grid;
-  gap:18px;
+  gap:4px;
 }
 
 .student-card{
@@ -494,10 +494,11 @@ a:hover{text-decoration:underline}
 
 .undergraduate-item{
   position:relative;
-  padding:4px 0 4px 18px;
+  padding:0 0 0 18px;
+  margin:0;
   font-family:Arial,'Noto Sans SC',sans-serif;
   font-size:15px;
-  line-height:1.4;
+  line-height:1.3;
   color:#444;
 }
 
@@ -505,7 +506,7 @@ a:hover{text-decoration:underline}
   content:"";
   position:absolute;
   left:2px;
-  top:15px;
+  top:8px;
   width:5px;
   height:5px;
   border-radius:50%;
