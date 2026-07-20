@@ -588,7 +588,7 @@
   "logo": "img/huge-lab-logo.png",
   "en": {
     "title": "HUGE Lab",
-    "description": "HUGE Lab — Human Understanding through Geospatial Exploration — investigates human dynamics through geographic and spatial perspectives. The lab integrates geospatial big data, spatial analysis, social sensing, and GeoAI to understand how human behavior, health, mobility, environment, and urban systems interact across space and time.",
+    "description": "HUGE Lab (Human Understanding through Geospatial Exploration) is driven by a simple question: how can geography help us better understand and improve human lives? Our research examines how human behavior, health, mobility, disasters, environmental change, and social systems interact across space and time. Through geospatial data, spatial analysis, and GeoAI, we advance geographic understanding of human dynamics and develop knowledge that supports healthier, safer, and more resilient societies.",
     "groups": [
       {
         "title": "Master's Students",
@@ -604,17 +604,17 @@
       {
         "title": "Undergraduate Students",
         "items": [
-          "Yurun Gao — Geographic Information Science, Class of 2022",
-          "Haiyan Liang — Geographic Information Science, Class of 2022",
-          "Yongkui Liu — Geographic Information Science, Class of 2022",
-          "Yong Yang — Geographic Information Science, Class of 2022"
+          "Yurun Gao, Geographic Information Science, Class of 2022",
+          "Haiyan Liang, Geographic Information Science, Class of 2022",
+          "Yongkui Liu, Geographic Information Science, Class of 2022",
+          "Yong Yang, Geographic Information Science, Class of 2022"
         ]
       }
     ]
   },
   "zh": {
     "title": "HUGE Lab",
-    "description": "HUGE Lab 全称为 Human Understanding through Geospatial Exploration，致力于从地理与空间视角理解人类动态。实验室融合地理空间大数据、空间分析、社会感知与地理人工智能等方法，研究人类行为、健康、流动、环境与城市系统在不同时空尺度上的相互作用。",
+    "description": "HUGE Lab（Human Understanding through Geospatial Exploration）以“理解人、服务人”为核心使命，立足地理学视角，探索人类行为、健康、环境、灾害与社会系统之间复杂的时空耦合关系。实验室综合利用地理空间数据、空间智能与GeoAI技术，致力于回答影响人类健康与福祉的重要科学问题，为公共健康、灾害应对、城市可持续发展与社会韧性提升提供理论与技术支持。",
     "groups": [
       {
         "title": "硕士研究生",
