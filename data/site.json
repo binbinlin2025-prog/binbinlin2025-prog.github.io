@@ -584,12 +584,14 @@
     ]
   }
 },
-    "students": {
+   "students": {
+  "logo": "img/huge-lab-logo.png",
   "en": {
-    "title": "Student Supervision",
+    "title": "HUGE Lab",
+    "description": "HUGE Lab — Human Understanding through Geospatial Exploration — investigates human dynamics through geographic and spatial perspectives. The lab integrates geospatial big data, spatial analysis, social sensing, and GeoAI to understand how human behavior, health, mobility, environment, and urban systems interact across space and time.",
     "groups": [
       {
-        "title": "Current Students",
+        "title": "Master's Students",
         "items": [
           {
             "name": "Xin Wang",
@@ -598,14 +600,24 @@
             "photo": "img/student-xinwang.jpg"
           }
         ]
+      },
+      {
+        "title": "Undergraduate Students",
+        "items": [
+          "Yurun Gao — Geographic Information Science, Class of 2022",
+          "Haiyan Liang — Geographic Information Science, Class of 2022",
+          "Yongkui Liu — Geographic Information Science, Class of 2022",
+          "Yong Yang — Geographic Information Science, Class of 2022"
+        ]
       }
     ]
   },
   "zh": {
-    "title": "研究生培养",
+    "title": "HUGE Lab",
+    "description": "HUGE Lab 全称为 Human Understanding through Geospatial Exploration，致力于从地理与空间视角理解人类动态。实验室融合地理空间大数据、空间分析、社会感知与地理人工智能等方法，研究人类行为、健康、流动、环境与城市系统在不同时空尺度上的相互作用。",
     "groups": [
       {
-        "title": "在读研究生",
+        "title": "硕士研究生",
         "items": [
           {
             "name": "王鑫",
@@ -613,6 +625,15 @@
             "period": "2026级",
             "photo": "img/student-xinwang.jpg"
           }
+        ]
+      },
+      {
+        "title": "本科生",
+        "items": [
+          "2022级 地理信息科学 高雨润",
+          "2022级 地理信息科学 梁海燕",
+          "2022级 地理信息科学 刘永奎",
+          "2022级 地理信息科学 杨勇"
         ]
       }
     ]
