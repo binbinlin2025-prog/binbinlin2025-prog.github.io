@@ -17,7 +17,7 @@ function text(key) {
       nav_projects: 'Projects',
       nav_teaching: 'Teaching',
       nav_awards: 'Awards',
-      nav_students: 'Students',
+      nav_students: 'Lab',
       nav_talks:'Presentations',
       nav_patents:'Patents',
       nav_service: 'Service',
@@ -30,7 +30,7 @@ function text(key) {
       nav_projects: '科研项目',
       nav_teaching: '教学工作',
       nav_awards: '获奖情况',
-      nav_students: '学生培养',
+      nav_students: '实验室',
       nav_talks:'学术报告',
       nav_patents:'专利软著',
       nav_service: '学术服务',
@@ -233,10 +233,12 @@ function renderProjects() {
 }
 
 function studentItemMarkup(item) {
+  // String items are rendered as a simple undergraduate list.
   if (typeof item === 'string') {
-    return `<li>${esc(item)}</li>`;
+    return `<div class="undergraduate-item">${esc(item)}</div>`;
   }
 
+  // Graduate students retain the existing photo-card design.
   return `
     <div class="student-card">
       <img class="student-photo"
@@ -269,8 +271,32 @@ function renderStudents() {
   const s = siteData.sections.students;
   const content = t(s);
 
+  const logo = s.logo
+    ? `
+      <div class="lab-logo-wrap">
+        <img class="lab-logo"
+             src="${s.logo}"
+             alt="HUGE Lab logo">
+      </div>
+    `
+    : '';
+
+  const description = content.description
+    ? `
+      <div class="lab-description">
+        ${esc(content.description).replace(/\n/g, '<br>')}
+      </div>
+    `
+    : '';
+
   $('students').innerHTML = `
     <h2>${esc(content.title || '')}</h2>
+
+    <div class="lab-header">
+      ${logo}
+      ${description}
+    </div>
+
     ${studentGroupsMarkup(content.groups || [])}
   `;
 }
