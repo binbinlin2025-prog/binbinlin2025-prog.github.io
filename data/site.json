@@ -454,6 +454,10 @@
         "title": "Projects as PI",
         "items": [
           {
+            "text": "2027–2029. National Natural Science Foundation of China (NSFC), Young Scientists Fund (Category C), Grant No. 42601803.\nProject: Healthcare Accessibility Assessment for Older Adults through Interaction Modeling of Multidimensional Heterogeneous Factors.",
+            "image": "img/project-nsfc.png"
+          },
+          {
             "text": "2026–Present. Tianyou Postdoctoral Science Foundation, Lanzhou Jiaotong University (General Program).\nProject: Modeling Healthcare-Seeking Behaviors of Older Adults under Multimodal Transportation Constraints.",
             "image": "img/project-tianyoubohou.png"
           }
@@ -477,6 +481,10 @@
       {
         "title": "主持项目",
         "items": [
+          {
+            "text": "2027.01–2029.12\n国家自然科学基金青年科学基金项目（C类），项目负责人，批准号：42601803\n《融合多维异质因素交互建模的老年人医疗可达性计算方法研究》",
+            "image": "img/project-nsfc.png"
+          },
           {
             "text": "2026年至今\n兰州交通大学天佑博士后科学基金，项目负责人\n《多模态交通出行约束下的老年人就医行为模拟》\n关键词:多模态交通出行、行为模拟、老年人就医",
             "image": "img/project-tianyoubohou.png"
