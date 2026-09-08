@@ -612,10 +612,12 @@
       {
         "title": "Undergraduate Students",
         "items": [
-          "Yurun Gao, Geographic Information Science, Class of 2022",
-          "Haiyan Liang, Geographic Information Science, Class of 2022",
-          "Yongkui Liu, Geographic Information Science, Class of 2022",
-          "Yong Yang, Geographic Information Science, Class of 2022"
+          "Yangmi Gu, Geographic Information Science, Class of 2025 (Spatial Distribution and Influencing Factors of Androgenetic Alopecia)",
+          "Tianqi Bi, Geographic Information Science, Class of 2025 (Spatial Distribution and Influencing Factors of Androgenetic Alopecia)",
+          "Yurun Gao, Geographic Information Science, Class of 2022 (Spatial Accessibility to Mental Healthcare Resources Using Online Healthcare Platform Data)",
+          "Haiyan Liang, Geographic Information Science, Class of 2022 (Spatiotemporal Sensing of Sleep Rhythms Using Social Media Data)",
+          "Yongkui Liu, Geographic Information Science, Class of 2022 (Spatial Identification of Mental Health Risks Using Social Media Data)",
+          "Yong Yang, Geographic Information Science, Class of 2022 (Urban Walkability Assessment Using Street View Imagery)"
         ]
       }
     ]
@@ -638,10 +640,12 @@
       {
         "title": "本科生",
         "items": [
-          "2022级 地理信息科学 高雨润",
-          "2022级 地理信息科学 梁海燕",
-          "2022级 地理信息科学 刘永奎",
-          "2022级 地理信息科学 杨勇"
+          "2025级 地理信息科学 顾洋米 （雄激素性脱发的空间分布及影响因素分析）",
+          "2025级 地理信息科学 毕天麒 （雄激素性脱发的空间分布及影响因素分析）",
+          "2022级 地理信息科学 高雨润 （基于好大夫在线数据的心理健康医疗资源空间可达性评估）",
+          "2022级 地理信息科学 梁海燕 （基于社交媒体数据的睡眠节律时空感知）",
+          "2022级 地理信息科学 刘永奎 （基于社交媒体数据的心理健康风险空间识别）",
+          "2022级 地理信息科学 杨勇 （基于街景影像数据的城市步行友好度评估）"
         ]
       }
     ]
