@@ -158,6 +158,27 @@
     "zh": "第一作者论文"
   },
   "items": [
+    [
+  {
+    "year": 2026,
+    "authors": "Lin, B., Zou, L.*, Tian, H., Cai, H., Yang, Y., and Zhou, B.",
+    "title": "Modeling Hospital Visitation Flows Through Distance-Attractiveness Tradeoffs: Integrating Human Mobility, Hospital Attributes, and Socioeconomic Context",
+    "venue": "Transactions in GIS",
+    "volume": "30",
+    "pages": "e70432",
+    "status": "Published",
+    "link": "https://doi.org/10.1111/tgis.70432"
+  },
+  {
+    "year": 2026,
+    "authors": "Lin, B., Xu, Y.*, Zhang, H., Meng, Y., Yan, H., Zhou, L., Li, P., and Wu, Y.",
+    "title": "Not all sleep matters equally: differential recovery functions of sleep dimensions linking work stress to depressive symptoms",
+    "venue": "BMC Public Health",
+    "volume": "",
+    "pages": "",
+    "status": "Accepted",
+    "link": ""
+  },
     {
       "year": 2026,
       "authors": "Lin, B., Cai, H.*, Tian, H., Fu, D., Das, P., Sumiya, N., Yin, Z., and Zou, L.",
@@ -167,16 +188,6 @@
       "pages": "100623",
       "status": "Published",
       "link": "https://doi.org/10.1016/j.pdisas.2026.100623"
-    },
-    {
-      "year": 2026,
-      "authors": "Lin, B., Zou, L.*, Tian, H., Cai, H., Yang, Y., and Zhou, B.",
-      "title": "Predicting Healthcare System Visitation Flow by Integrating Hospital Attributes and Population Socioeconomics with Human Mobility Data",
-      "venue": "Transactions in GIS",
-      "volume": "",
-      "pages": "",
-      "status": "Under Review",
-      "link": "https://doi.org/10.48550/arXiv.2601.15977"
     },
     {
       "year": 2024,
